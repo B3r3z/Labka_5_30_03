@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/Projekty/Lab_5_30_03/build",
+  "command": "/bin/g++-9  -I/home/Projekty/Lab_5_30_03/z3a -g -Wall -g -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/apk_lab_5.dir/main.cpp.o -c /home/Projekty/Lab_5_30_03/main.cpp",
+  "file": "/home/Projekty/Lab_5_30_03/main.cpp"
+}
+]
