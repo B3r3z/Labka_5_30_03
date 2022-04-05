@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/apk_lab_5.dir/main.cpp.o -o apk_lab_5 

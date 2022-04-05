@@ -1,1 +1,1 @@
-/bin/g++-9 -g CMakeFiles/apk_lab_5.dir/main.cpp.o -o apk_lab_5 
+/usr/bin/g++ -g CMakeFiles/apk_lab_5.dir/main.cpp.o -o apk_lab_5 

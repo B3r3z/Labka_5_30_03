@@ -10,17 +10,17 @@
 				{
 					"includeDirectories" : 
 					[
-						"/usr/lib/gcc/aarch64-linux-gnu/9/include",
+						"/usr/lib/gcc/x86_64-linux-gnu/9/include",
 						"/usr/local/include",
-						"/usr/include/aarch64-linux-gnu",
+						"/usr/include/x86_64-linux-gnu",
 						"/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/usr/lib/gcc/aarch64-linux-gnu/9",
-						"/usr/lib/aarch64-linux-gnu",
+						"/usr/lib/gcc/x86_64-linux-gnu/9",
+						"/usr/lib/x86_64-linux-gnu",
 						"/usr/lib",
-						"/lib/aarch64-linux-gnu",
+						"/lib/x86_64-linux-gnu",
 						"/lib"
 					],
 					"linkFrameworkDirectories" : [],
@@ -33,7 +33,7 @@
 						"gcc_s"
 					]
 				},
-				"path" : "/bin/gcc-9",
+				"path" : "/usr/bin/gcc",
 				"version" : "9.4.0"
 			},
 			"language" : "C",
@@ -52,19 +52,19 @@
 					"includeDirectories" : 
 					[
 						"/usr/include/c++/9",
-						"/usr/include/aarch64-linux-gnu/c++/9",
+						"/usr/include/x86_64-linux-gnu/c++/9",
 						"/usr/include/c++/9/backward",
-						"/usr/lib/gcc/aarch64-linux-gnu/9/include",
+						"/usr/lib/gcc/x86_64-linux-gnu/9/include",
 						"/usr/local/include",
-						"/usr/include/aarch64-linux-gnu",
+						"/usr/include/x86_64-linux-gnu",
 						"/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/usr/lib/gcc/aarch64-linux-gnu/9",
-						"/usr/lib/aarch64-linux-gnu",
+						"/usr/lib/gcc/x86_64-linux-gnu/9",
+						"/usr/lib/x86_64-linux-gnu",
 						"/usr/lib",
-						"/lib/aarch64-linux-gnu",
+						"/lib/x86_64-linux-gnu",
 						"/lib"
 					],
 					"linkFrameworkDirectories" : [],
@@ -79,7 +79,7 @@
 						"gcc"
 					]
 				},
-				"path" : "/bin/g++-9",
+				"path" : "/usr/bin/g++",
 				"version" : "9.4.0"
 			},
 			"language" : "CXX",

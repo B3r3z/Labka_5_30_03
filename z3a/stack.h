@@ -10,15 +10,15 @@ private:
     T _first[SIZE];
     int counter = 0;
 public:
-    Stack();
+    //Stack<T>();
     void push(T value);
     bool isEmpty();
+    bool isFool();
     T pop();
+    void topStack();
     void clear();
+
 };
-
-
-
 
 template<class T>
 void Stack<T>::push(T value){
@@ -26,10 +26,17 @@ void Stack<T>::push(T value){
     _first[counter] = value;
     counter++;
 }
+
 template<class T>
 bool Stack<T>::isEmpty(){
     if(counter == 0) return true;
     else return false;
+}
+
+template<class T>
+void Stack<T>::topStack(){
+    std::cout<<_first[0] << std::endl;
+    // return _frist[0]; 
 }
 
 template<class T>
@@ -40,6 +47,7 @@ T Stack<T>::pop(){
         pop = _first[i];
         _first[i] = _first[i+1];
     }
+    //topStack();
     _first[counter]= 0;
     counter--;
     return pop;
