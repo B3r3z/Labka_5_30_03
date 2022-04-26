@@ -1,5 +1,6 @@
 CMakeFiles/apk_lab_5.dir/main.cpp.o: \
  /home/Projekty/semestr_4/Lab_5/main.cpp /usr/include/stdc-predef.h \
+ /home/Projekty/semestr_4/Lab_5/z5_BST/Element.hpp \
  /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -138,4 +139,6 @@ CMakeFiles/apk_lab_5.dir/main.cpp.o: \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
+ /home/Projekty/semestr_4/Lab_5/z5_BST/Tree.hpp \
+ /home/Projekty/semestr_4/Lab_5/z5_BST/Element.hpp \
  /home/Projekty/semestr_4/Lab_5/z3a/stack.h

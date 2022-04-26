@@ -3,6 +3,7 @@
 
 CMakeFiles/apk_lab_5.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
+  ../z5_BST/Element.hpp \
   /usr/include/c++/9/iostream \
   /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -176,8 +177,12 @@ CMakeFiles/apk_lab_5.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/9/bits/ostream.tcc \
   /usr/include/c++/9/istream \
   /usr/include/c++/9/bits/istream.tcc \
+  ../z5_BST/Tree.hpp \
+  ../z5_BST/Element.hpp \
   ../z3a/stack.h
 
+
+../z5_BST/Tree.hpp:
 
 ../z3a/stack.h:
 
@@ -228,6 +233,8 @@ CMakeFiles/apk_lab_5.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/9/bits/locale_facets.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/c++/9/bits/basic_ios.h:
 
@@ -283,7 +290,13 @@ CMakeFiles/apk_lab_5.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/usr/include/c++/9/debug/debug.h:
+/usr/include/c++/9/bits/ptr_traits.h:
+
+/usr/include/c++/9/bits/stl_pair.h:
+
+/usr/include/c++/9/bits/char_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h:
 
@@ -317,20 +330,6 @@ CMakeFiles/apk_lab_5.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/9/initializer_list:
-
-/usr/include/c++/9/bits/ptr_traits.h:
-
-/usr/include/c++/9/bits/stl_pair.h:
-
-/usr/include/c++/9/bits/char_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
 /usr/include/c++/9/bits/concept_check.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:
@@ -356,6 +355,12 @@ CMakeFiles/apk_lab_5.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/9/initializer_list:
 
 ../main.cpp:
 
@@ -408,6 +413,8 @@ CMakeFiles/apk_lab_5.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/9/debug/debug.h:
 
 /usr/include/c++/9/bits/predefined_ops.h:
 
@@ -515,6 +522,8 @@ CMakeFiles/apk_lab_5.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/9/bits/cxxabi_forced.h:
 
+../z5_BST/Element.hpp:
+
 /usr/include/c++/9/bits/stl_function.h:
 
 /usr/include/c++/9/bits/postypes.h:
@@ -528,5 +537,3 @@ CMakeFiles/apk_lab_5.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/9/bits/functional_hash.h:
 
 /usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
